@@ -1,0 +1,60 @@
+// 全局样式变量
+:root {
+  --primary-color: #409EFF;
+  --success-color: #67C23A;
+  --warning-color: #E6A23C;
+  --danger-color: #F56C6C;
+  --bg-color: #F5F7FA;
+  --sidebar-bg: #304156;
+  --card-bg: #FFFFFF;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: #303133;
+}
+
+// 侧边栏样式
+.sidebar-container {
+  background-color: var(--sidebar-bg) !important;
+}
+
+// 卡片样式
+.page-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 16px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+// 统计卡片
+.stat-card {
+  text-align: center;
+  padding: 24px;
+  .stat-value {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+  .stat-label {
+    font-size: 14px;
+    color: #909399;
+    margin-top: 8px;
+  }
+}
+
+// 通用间距
+.mt-16 { margin-top: 16px; }
+.mb-16 { margin-bottom: 16px; }
+.ml-8 { margin-left: 8px; }
+.mr-8 { margin-right: 8px; }
+
+// 搜索工具栏
+.search-bar {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}

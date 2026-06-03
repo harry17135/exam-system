@@ -1,0 +1,1 @@
+import{r as e}from"./request-DSSIy5_A.js";function o(t){return e({url:"/questions",method:"get",params:t})}function s(t){return e({url:"/questions",method:"post",data:t})}function r(t,u){return e({url:`/questions/${t}`,method:"put",data:u})}function i(t){return e({url:`/questions/${t}`,method:"delete"})}export{s as c,i as d,o as g,r as u};
